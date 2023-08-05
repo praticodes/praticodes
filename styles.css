@@ -77,8 +77,9 @@ nav a:hover {
     text-align: center;
     font-size: large;
     padding: 0;
-    height: 100vh; /* Subtract header height from viewport height */
+    height: 90vh; /* Subtract header height from viewport height */
     display: flex;
+    margin-top: 1vh;
     flex-direction: column;
     justify-content: center;
 }
