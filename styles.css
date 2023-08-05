@@ -1,0 +1,201 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Fira Code', monospace;
+    font-size: large;
+    line-height: 1.6;
+}
+
+/* Header and navigation styling */
+header {
+    background: #212738;
+    padding: 2vh;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #EDF2EF;
+    font-weight: bold;
+}
+
+nav a:hover {
+    font-weight: bolder;
+}
+
+.project-link {
+    color: #F97068;
+    /* You can add more styles here */
+}
+
+.courses-link {
+    color: #E5A357;
+    /* You can add more styles here */
+}
+
+.experience-link {
+    color: #D1D646;
+    /* You can add more styles here */
+}
+
+.achieve-link {
+    color: #DFE49B;
+    /* You can add more styles here */
+}
+
+.contact-link {
+    color: #EDF2EF;
+    /* You can add more styles here */
+}
+
+.github-link {
+    color: #A2DBEA;
+    /* You can add more styles here */
+}
+
+.linkedln-link {
+    color: #57C4E5;
+    /* You can add more styles here */
+}
+
+/* Hero section styling */
+#hero {
+    background: #212738;
+    color: #EDF2EF;
+    text-align: center;
+    font-size: large;
+    padding: 0;
+    height: 100vh; /* Subtract header height from viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Other section styling - adjust as needed */
+section {
+    padding: 80px 0;
+}
+
+#projects {
+    background: #F97068;
+    text-align: center;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #DFE49B;
+}
+
+#courses-title {
+    background: #E5A357;
+    text-align: center;
+    padding: 5vh;
+    height: 35vh;
+    color: whitesmoke;
+}
+
+#courses {
+    background: #E5A357;
+    text-align: center;
+    padding: 2vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.course-button {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+    width: 100%;
+    font-size: inherit;
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+}
+
+#courses-changing-text {
+    background: #E5A357;
+    text-align: center;
+    padding: 2vh;
+    height: 45vh;
+    color: whitesmoke;
+}
+
+.courses-container {
+    flex: 1;
+    padding: 1vh;
+    box-sizing: border-box;
+}
+
+.course-box {
+    border: 0.5vh solid whitesmoke;
+    padding: 1vh;
+    text-align: center;
+}
+
+#course-list {
+    text-align: left;
+    padding: 1vh;
+}
+
+
+#experience {
+    background: #D1D646;
+    text-align: center;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #212738;
+}
+
+#achieve {
+    background: #DFE49B;
+    text-align: center;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #57C4E5;
+}
+
+#contact {
+    background: #A2DBEA;
+    text-align: center;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #212738;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background: #F97068;
+    padding: 20px;
+}
+
+/* Media queries for responsiveness - add as needed */
+

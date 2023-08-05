@@ -1,7 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+    </style>
+    <title>Pratibha Thakur</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#projects" class="project-link">Projects</a></li>
+                <li><a href="#courses-title" class="courses-link">Courses</a></li>
+                <li><a href="#experience" class="experience-link">Experience</a></li>
+                <li><a href="#achieve" class="achieve-link">Awards</a></li>
+                <li><a href="#contact" class="contact-link">Contact</a></li>
+                <li><a href="https://www.linkedin.com/thakur-pratibha" target="_blank" class="linkedln-link">LinkedIn</a></li>
+                <li><a href="https://github.com/praticodes" target="_blank" class="github-link">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1 style="font-weight: bold;">Pratibha Thakur</h1>
+            <p>Aspiring Software Engineer</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <!-- Display coding projects here -->
+    </section>
+
+    <section id="courses-title">
+        <h2 style="padding: 2vh;">COURSES</h2>
+        <p style="padding: 1vh; text-align: center;"> 
+            I'm currently an undergraduate student at the University of Toronto, St. George. 
+            I'm pursuing a double major in computer science and cognitive science -- with focuses in artificial intelligence 
+            and computational cognition, respectively --
+            and a minor in mathematics. 
+        </p>
+        <p style="padding: 1vh; text-align: center;"> 
+            In this section, you can see the courses I've taken that are relevant to at least one of my areas of study.
+        </p>
+    </section>
+
+    <section id="courses">
+        <div class="courses-container">
+            <div class="course-box">
+                <button class="course-button" onclick="changeText('Computer Science')">
+                    <p>Computer Science</p>
+                </button>
+            </div>
+        </div>
+        <div class="courses-container">
+            <div class="course-box">
+                <button class="course-button" onclick="changeText('Computational Cognition')">
+                    <p>Computational Cognition</p>
+                </button>
+            </div>
+        </div>
+        <div class="courses-container">
+            <div class="course-box">
+                <button class="course-button" onclick="changeText('Mathematics')">
+                    <p>Mathematics</p>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses-changing-text">
+        <div id="course-list">
+            <p>Select a course to see the details.</p>
+        </div>
+    </section>
+
+    <script>
+        function changeText(category) {
+            const text = document.getElementById('course-list');
+
+            if (category === 'Computer Science') {
+                text.innerHTML = '<p>CSC110: Foundations of Computer Science I; CSC111: Foundations of Computer Science II; CSC236: Introduction to the Theory of Computation (Fall 2023); CSC207: Software Design (Fall 2023); CSC258: Computer Organization (Fall 2023); CSC263: Data Structures & Analysis (Winter 2024); CSC311: Introduction to Machine Learning (Winter 2024).</p>';
+            } else if (category === 'Computational Cognition') {
+                text.innerHTML = '<p>COG250: Introduction to Cognitive Science (Fall 2023).</p>';
+            } else if (category === 'Mathematics') {
+                text.innerHTML = '<p>MAT157: Analysis I; MAT240: Algebra I; MAT224: Linear Algebra II; MAT235: Multivariable Calculus (Fall 2023); STA237: Statistics, Probability, and Data Analysis I (Fall 2023); MAT315: Introduction to Number Theory (Winter 2024); MAT344: Introduction to Combinatorics (Winter 2024).</p>';
+            } else {
+                text.innerHTML = '<p>Select a course to see the details.</p>';
+            }
+        }
+    </script>
+
+    
+    <section id="experience">
+        <!-- Display leadership experience here -->
+    </section>
+
+    <section id="achieve">
+        <!-- Display technical skills here -->
+    </section>
+
+    <section id="contact">
+        <!-- Contact form or information here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pratibha</p>
+    </footer>
 </body>
 </html>
