@@ -77,28 +77,73 @@ nav a:hover {
     text-align: center;
     font-size: large;
     padding: 0;
-    height: 90vh; /* Subtract header height from viewport height */
+    height: 100vh; /* Subtract header height from viewport height */
     display: flex;
-    margin-top: 1vh;
     flex-direction: column;
     justify-content: center;
 }
 
-/* Other section styling - adjust as needed */
-section {
-    padding: 80px 0;
+
+#projects-title {
+    background: #F97068;
+    text-align: center;
+    padding: 5vh;
+    height: 20vh;
+    color: whitesmoke;
 }
 
 #projects {
     background: #F97068;
     text-align: center;
-    padding: 0;
-    height: 100vh;
+    padding: 10vh;
+    height: 80vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     color: #DFE49B;
 }
+
+  
+  .slideshow-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%; /* Ensure the container spans the full width */
+  }
+  
+  .slide {
+    width: 40%; /* Display 2 slides at once */
+    background-color: whitesmoke;
+    margin: 1.5vh; /* Gap between slides */
+    box-sizing: border-box;
+  }
+  
+  .slide-content {
+    padding: 2vh; /* Add padding to the slide content */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.5vh;
+    color:#212738;
+  }
+  
+  .project-title {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .skills-list li {
+    font-size: 14px;
+  }
+  
 
 #courses-title {
     background: #E5A357;
@@ -111,7 +156,7 @@ section {
 #courses {
     background: #E5A357;
     text-align: center;
-    padding: 2vh;
+    padding: 5vh;
     height: 20vh;
     display: flex;
     flex-direction: row;
@@ -135,14 +180,14 @@ section {
 #courses-changing-text {
     background: #E5A357;
     text-align: center;
-    padding: 2vh;
+    padding: 5vh;
     height: 45vh;
     color: whitesmoke;
 }
 
 .courses-container {
     flex: 1;
-    padding: 1vh;
+    padding: 3.5vh;
     box-sizing: border-box;
 }
 
@@ -190,6 +235,27 @@ section {
     justify-content: center;
     color: #212738;
 }
+
+/* Style for launch links */
+.launch {
+    display: inline-block;
+    background-color: #D1D646;
+    margin-top: 2vh;
+    padding: 0.75vh;
+    width: 15vh;
+    height: 4.5vh;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 0.5vh;
+    font-weight: bold;
+    font-size: 2vh;
+  }
+  
+  /* Change link color when hovered */
+  .launch:hover {
+    background-color: #212738;
+  }
 
 /* Footer styling */
 footer {
