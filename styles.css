@@ -202,28 +202,104 @@ nav a:hover {
     padding: 1vh;
 }
 
+#achieve {
+    background: #DFE49B;
+    text-align: center;
+    padding: 5vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #212738;
+}
 
-#experience {
+.awards-button {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: #212738;
+    cursor: pointer;
+    width: 100%;
+    font-size: inherit;
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+}
+
+#awards-changing-text {
+    background: #DFE49B;
+    text-align: center;
+    padding: 5vh;
+    height: 45vh;
+    color: #212738;
+}
+
+.awards-container {
+    flex: 1;
+    padding: 3.5vh;
+    box-sizing: border-box;
+}
+
+.awards-box {
+    border: 0.5vh solid #212738;
+    padding: 1vh;
+    text-align: center;
+}
+
+#awards-list {
+    text-align: left;
+    padding: 1vh;
+}
+
+#experience-title {
+    background: #D1D646;
+    text-align: center;
+    padding: 7vh;
+    height: 20vh;
+    color: #212738;
+}
+
+.experience {
     background: #D1D646;
     text-align: center;
     padding: 0;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: #212738;
 }
 
-#achieve {
+.experience-item {
+    display: inline-block;
+    width: calc(50% - 20px);
+    margin: 4vh;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    height: 35vh;
+}
+
+.experience-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.experience-description {
+    color: #666;
+    line-height: 1.4;
+}
+
+#achieve-title {
     background: #DFE49B;
     text-align: center;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: #57C4E5;
+    padding: 7vh;
+    height: 20vh;
+    color: #212738;
 }
+
 
 #contact {
     background: #A2DBEA;
@@ -257,12 +333,22 @@ nav a:hover {
     background-color: #212738;
   }
 
+#contact-title {
+    background: #A2DBEA;
+    text-align: center;
+    padding: 7vh;
+    height: 20vh;
+    color: #212738;
+}
+
 /* Footer styling */
 footer {
     text-align: center;
     background: #F97068;
     padding: 20px;
 }
+
+
 
 /* Media queries for responsiveness - add as needed */
 
