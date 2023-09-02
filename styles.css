@@ -257,6 +257,8 @@ nav a:hover {
     padding: 7vh;
     height: 20vh;
     color: #212738;
+    weight: bold;
+    font-family: 'Fira Code'
 }
 
 .experience {
