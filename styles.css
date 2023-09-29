@@ -96,7 +96,7 @@ nav a:hover {
     background: #F97068;
     text-align: center;
     padding: 10vh;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,7 +265,7 @@ nav a:hover {
     background: #D1D646;
     text-align: center;
     padding: 0;
-    height: 70vh;
+    height: 90vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
