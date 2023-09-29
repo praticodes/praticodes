@@ -265,7 +265,7 @@ nav a:hover {
     background: #D1D646;
     text-align: center;
     padding: 0;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -280,7 +280,7 @@ nav a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: whitesmoke;
     box-sizing: border-box;
-    height: 150vh;
+    height: 100px;
 }
 
 .experience-title {
