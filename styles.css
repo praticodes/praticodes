@@ -88,7 +88,7 @@ nav a:hover {
     background: #F97068;
     text-align: center;
     padding: 5vh;
-    height: 20vh;
+    height: 25vh;
     color: whitesmoke;
 }
 
@@ -96,27 +96,27 @@ nav a:hover {
     background: #F97068;
     text-align: center;
     padding: 10vh;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #DFE49B;
 }
 
-  
+
   .slideshow-container {
     display: flex;
     overflow: hidden;
     width: 100%; /* Ensure the container spans the full width */
   }
-  
+
   .slide {
     width: 40%; /* Display 2 slides at once */
     background-color: whitesmoke;
     margin: 1.5vh; /* Gap between slides */
     box-sizing: border-box;
   }
-  
+
   .slide-content {
     padding: 2vh; /* Add padding to the slide content */
     height: 100%;
@@ -127,23 +127,23 @@ nav a:hover {
     font-size: 1.5vh;
     color:#212738;
   }
-  
+
   .project-title {
     font-size: large;
     font-weight: bold;
     margin-top: 10px;
   }
-  
+
   .skills-list {
     list-style-type: none;
     padding: 0;
     margin: 10px 0;
   }
-  
+
   .skills-list li {
     font-size: 14px;
   }
-  
+
 
 #courses-title {
     background: #E5A357;
@@ -230,7 +230,7 @@ nav a:hover {
     background: #DFE49B;
     text-align: center;
     padding: 5vh;
-    height: 45vh;
+    height: 50vh;
     color: #212738;
 }
 
@@ -255,7 +255,7 @@ nav a:hover {
     background: #D1D646;
     text-align: center;
     padding: 7vh;
-    height: 20vh;
+    height: 25vh;
     color: #212738;
     weight: bold;
     font-family: 'Fira Code'
@@ -265,7 +265,7 @@ nav a:hover {
     background: #D1D646;
     text-align: center;
     padding: 0;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -280,7 +280,7 @@ nav a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: whitesmoke;
     box-sizing: border-box;
-    height: 35vh;
+    height: 55vh;
 }
 
 .experience-title {
@@ -297,8 +297,8 @@ nav a:hover {
 #achieve-title {
     background: #DFE49B;
     text-align: center;
-    padding: 7vh;
-    height: 20vh;
+    padding: 10vh;
+    height: 30vh;
     color: #212738;
 }
 
@@ -329,7 +329,7 @@ nav a:hover {
     font-weight: bold;
     font-size: 2vh;
   }
-  
+
   /* Change link color when hovered */
   .launch:hover {
     background-color: #212738;
