@@ -278,8 +278,9 @@ nav a:hover {
     margin: 4vh;
     padding: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    box-height: 70vh;
+    box-height: auto; /* Change box-height to auto */
 }
+
 
 .experience-title {
     font-size: 1.2rem;
